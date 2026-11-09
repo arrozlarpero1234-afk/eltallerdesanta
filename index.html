@@ -6,11 +6,13 @@
 <title>El Taller de Santa — Decoración navideña hecha a mano · Catálogo 2026</title>
 <meta name="description" content="Coronas, gnomos, colgantes, cortineros, cubresillas, cojines y más decoración navideña hecha a mano. Catálogo 2026 de El Taller de Santa. Pide por WhatsApp.">
 <meta property="og:title" content="El Taller de Santa — Catálogo 2026">
+<meta property="og:image" content="https://arrozlarpero1234-afk.github.io/eltallerdesanta/img/og.jpg">
 <meta property="og:description" content="Decoración navideña hecha a mano. Pide tu deseo por WhatsApp.">
 <meta name="theme-color" content="#A11D20">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-zYt86i3gVltZsSsHyiClqow+5aLmCu7bhIb/XXg4MPs='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23A11D20'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-style='italic' text-anchor='middle' fill='%23F7F1E8'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -26,6 +28,7 @@ a{color:var(--red)}
 .test{background:#2B1A17;color:#F7F1E8;text-align:center;font-size:13px;padding:7px 14px}
 header.top{background:var(--paper);border-bottom:1px solid #EFE4D6;position:sticky;top:0;z-index:20}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:10px;padding-bottom:10px}
+.logo img{display:block;height:48px;width:auto;border-radius:8px}
 .logo{text-decoration:none;color:var(--red);display:flex;align-items:baseline;gap:6px;line-height:1}
 .logo span{font-family:var(--serif);font-size:20px;font-weight:500;color:var(--ink)}
 .logo b{font-family:var(--script);font-weight:400;font-size:38px;color:var(--red)}
@@ -91,7 +94,7 @@ dialog::backdrop{background:rgba(20,8,6,.82)}
 dialog img{width:100%;height:auto;max-height:86vh;object-fit:contain;border-radius:14px}
 dialog .close{position:absolute;top:8px;right:8px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.6);color:#fff;font-size:22px;cursor:pointer}
 @media (max-width:640px){
-  .logo span{font-size:16px}.logo b{font-size:32px}
+  .logo img{height:42px}
   header.top .btn{padding:10px 14px;min-height:42px;font-size:14px}
   .hero .wrap{padding-top:36px;padding-bottom:44px;gap:28px}
   .chips{top:60px}
@@ -108,7 +111,7 @@ dialog .close{position:absolute;top:8px;right:8px;width:44px;height:44px;border-
 
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="#" aria-label="El Taller de Santa, inicio"><span>El Taller de</span><b>Santa</b></a>
+    <a class="logo" href="#" aria-label="El Taller de Santa, inicio"><img src="img/logo-h.webp" alt="El Taller de Santa" width="83" height="48"></a>
     <a class="btn wa" href="https://wa.me/523313622326?text=%C2%A1Hola%21%20Vi%20su%20p%C3%A1gina%20y%20quiero%20hacer%20un%20pedido." target="_blank" rel="noopener noreferrer">Pedir por WhatsApp</a>
   </div>
 </header>
